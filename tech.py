@@ -30,11 +30,22 @@ if num1 == 3:
 if num1 == 4:
     print("April")
 if num1 == 5:
-    print("June")
+    print("May")
 if num1 == 6:
-    print("July")
+    print("June")
 if num1 == 7:
+    print("July")
+if num1 == 8:
     print("August")
+if num1 == 9:
+    print("September")
+if num1 == 10:
+    print("October")
+if num1 == 11:
+    print("November")
+if num1 == 12:
+    print("December")
+
 
 #exercise
 name = "J"
@@ -48,9 +59,11 @@ else:
     print("Name looks good!")
 
 
+
 #looping through a string
 for x in "banana":
     print(x)
+
 
 adj = ["red", "succulent", "juicy"]
 fruits = ["watermelon", "orange", "pineapple"]
@@ -59,6 +72,7 @@ for x in adj:
     for y in fruits:
         print(x, y)
 
+#Weather check
 weather = 30
 if weather < 30:
     print("I will mow the lawn")
