@@ -59,4 +59,9 @@ for x in adj:
     for y in fruits:
         print(x, y)
 
-weather = 3
+weather = 30
+if weather < 30:
+    print("I will mow the lawn")
+    print("I will rest")
+else:
+    print("I won't mow the lawn")
