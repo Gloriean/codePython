@@ -1,5 +1,5 @@
 def my_function():
-    print("Success!")
+    print("my_function")
 
 def function(fname, lname):
     print(fname + " " + lname)
@@ -13,3 +13,10 @@ def function1(fname, mname, lname):
 
 function1("Julius", "Oluwaropo", "Idowu")
 function1("Sholape", "Opeyemi", "Ayinde")
+
+def function2(*kids):
+    print("Funny baby " + (kids))
+
+function2("Bola", "Ifedayo", "Dele")
+
+#Python Lambda
