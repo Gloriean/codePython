@@ -61,3 +61,25 @@ print(lst)
 
 
 #Python Lambda
+str1 = 'GREEK'
+
+lower = lambda string: string.lower()
+print(lower(str1))
+
+#Adding
+x = lambda a : a + 10
+print(x(5))
+
+#Multiply
+y = lambda b, c : b * c
+print(y(5, 6))
+
+#Function in Lambda
+def myfunct(n):
+    return lambda a : a * n
+
+mydoubler = myfunct(2)
+mytripler = myfunct(3)
+
+print(mydoubler(11))
+print(mytripler(11))
